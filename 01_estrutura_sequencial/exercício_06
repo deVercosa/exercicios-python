@@ -1,0 +1,7 @@
+#Escreva um programa que leia o peso de um produto (em quilos) e o preço por quilo, e apresente o valor total a pagar, formatado com duas casas decimais.
+#Teste com peso 2,5 kg e preço R$ 12,90 o quilo.
+
+peso=float(input('o peso do produto é:'))
+preco_kg= float(input('O preço do prodouto: R$'))
+total= peso * preco_kg
+print(f'o valor total do produto é R${total}')
