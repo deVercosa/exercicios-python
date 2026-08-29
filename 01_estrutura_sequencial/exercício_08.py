@@ -17,5 +17,5 @@ valor_conta=float(input('insira o valor da compra:R$'))
 percentual_gorjeta=int(input('insira o percentual da gorgeta: %'))
 gorjeta= valor_conta * (percentual_gorjeta/100)
 total= valor_conta + gorjeta
-print(f'o valor da gorjeta foi {gorjeta}')
-print(f'total a pagar: R${total}')
+print(f'gorjeta R${gorjeta}')
+print(f'total R${total}')
