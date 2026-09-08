@@ -37,4 +37,4 @@ print(f'Adicional: R$ {adicional:.2f}')
 print(f'Desconto: R$ {desconto:.2f}')
 print(f'Total: R$ {total:.2f}')
 
-print(f'Total: R${total}')
+
